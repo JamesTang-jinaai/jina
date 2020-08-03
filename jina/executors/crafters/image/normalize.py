@@ -5,10 +5,10 @@ from typing import Tuple, Dict, Union
 
 import numpy as np
 
-from . import ImageChunkCrafter
+from .. import BaseCrafter
 
 
-class ImageNormalizer(ImageChunkCrafter):
+class ImageNormalizer(BaseCrafter):
     """:class:`ImageNormalizer` works on doc-level,
         it receives values of file names on the doc-level and returns image matrix on the chunk-level """
 

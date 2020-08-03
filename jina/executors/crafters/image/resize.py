@@ -6,10 +6,10 @@ from typing import Union, Tuple, Dict
 
 import numpy as np
 
-from . import ImageChunkCrafter
+from .. import BaseCrafter
 
 
-class ImageResizer(ImageChunkCrafter):
+class ImageResizer(BaseCrafter):
     """
     :class:`ImageResizer` resize the image to the given size.
     """
